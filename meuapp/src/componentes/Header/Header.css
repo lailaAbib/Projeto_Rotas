@@ -1,0 +1,40 @@
+.menu{
+    height: 50px;
+    border: 1px solid rgb(214, 46, 16);
+    background-color: beige;
+    padding-bottom: 30px;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.navMenu::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navMenu ul{
+    list-style: none;
+    text-align: left;
+   /*display: flex;*/ 
+}
+
+.navMenu ul li {
+    display: inline;
+}
+
+.navMenu ul li a{
+    margin-right: 1.2vw;
+    padding-left: 2.1vw;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+}
+
+.navMenu ul li a:hover{
+    font-weight: bold;
+    font-size: 22px;
+    color: blue;
+}
